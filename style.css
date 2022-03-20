@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+body{
+  background-image: url('https://store-images.s-microsoft.com/image/apps.62416.14371825410523561.5c9469d8-ac8d-4963-98c3-9fc24e43bdbe.4de4a4a6-4bd1-486e-808e-9fc129de815d?mode=scale&q=90&h=1080&w=1920');
+  font-family: 'Secular One', sans-serif;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container{
+  background: #F7F7F7;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  padding: 64px;
+}
+
+.cabecalho{
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil{
+  display: flex;
+  align-items: center;
+}
+.perfil-foto{
+  border-radius: 500px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px;
+}
+.titulo{
+  margin-left: 16px;
+}
+
+.titulo h1{
+  font-weight: 500px;
+  font-size: 29px;
+}
+
+.tema button{
+  align-self: flex-end;
+  font-size: 15px;
+  font-weigth: 400;
+  padding: 2px 20px;
+  background: #ECF4FF;
+  border-radius: 100px;
+  font-family: 'Secular One', sans-serif;
+}
+
+.projetos{
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+border-radius: 20px;
+  margin-top: 52px;
+  align-items: center;
+  list-style: none;
+}
+
+.projetos-titulo{
+  margin-top: 32px;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.projetos-item{
+  font-size: 24px;
+  font-weight: 400;
+  width: 1032px;
+  padding: 60px 0px;
+  text-align: center;
+}
+
+.projetos-item a{
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.dark{
+  background-image: url('https://cdna.artstation.com/p/assets/images/images/034/893/730/large/jorge-hardt-v1-blue-night-forest-1920x1080.jpg?1613524598');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.dark .container{
+  background: #333439;
+  color: #F6F6F6;
+}
+
+.dark .projetos{
+  color: #1c1c1c;
+}
+
+.dark .tema button{
+  background: #1c1c1c;
+  color: #FFFFFF;
+  border: 2px solid #f7f7f7;
+}
